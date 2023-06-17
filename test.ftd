@@ -1,0 +1,27 @@
+-- import: package/header
+-- import: pakage/base-layout as layout
+-- import: pakage/lib as lib 
+-- import: pakage/taost as github
+-- import: pakage/button as button
+-- import: pakage/social-buttons as social
+
+-- layout.base-layout:
+-- navbar.header:
+logo:$assets.files.images.logo.svg
+logURL: /portfolio
+header-item1:Home
+header-item2:About
+header-item3:Projects
+header-item4:Contact
+header-item-link: /portfolio/home
+header-item-link: /portfolio/About
+header-item-link: /portfolio/Projects
+header-item-link: /portfolio/Contact
+cta-item1: Resume 
+cta-item1-link: /portfolio/resume
+--github.stack:
+title:Hello, I am Fastn developer Harsh Pandey based India
+link:https://github.com/Harshpandey9984
+
+
+--end:layout.base-layout
